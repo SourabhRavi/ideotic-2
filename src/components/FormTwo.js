@@ -18,6 +18,7 @@ const useStyles = makeStyles({
       left: "10px",
       background: "#fff",
       paddingRight: "10px",
+      fontSize: "16px",
       "&.Mui-focused": {
         color: "#5B3CD6",
       },
@@ -34,6 +35,7 @@ const useStyles = makeStyles({
       },
       "& input": {
         padding: "20px 30px",
+        fontSize: "16px",
       },
       "&.Mui-focused fieldset": {
         border: "1px solid #5B3CD6",
@@ -110,7 +112,7 @@ function FormTwo({
           helperText={repeatPasswordError ? repeatPasswordError : null}
         />
       </div>
-      <div className="form-check mb-3">
+      <div className="input-group mb-3">
         <FormControl fullWidth className={classes.root}>
           <InputLabel id="demo-simple-select-label">
             How did you hear about us?

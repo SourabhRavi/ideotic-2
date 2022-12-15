@@ -36,9 +36,10 @@ function ModalBox({ isOpen, goTo, setData, initialData, setIsSubmit }) {
             backgroundImage: `url(${bg})`,
             backgroundSize: "cover",
             backgroundPositionY: "center",
-            padding: "100px",
             borderRadius: "30px",
+            backgroundBlendMode: "difference",
           }}
+          className="modal-wrap"
         >
           <ModalClose sx={{ right: "20px", top: "20px" }} />
           <p className="form-heading">
