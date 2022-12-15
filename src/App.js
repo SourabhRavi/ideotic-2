@@ -117,7 +117,6 @@ const Home = () => {
           <button id="submit-btn" variant="primary" type="submit">
             {isLastStep ? "Register" : "Next"}
           </button>
-          {dataOk && console.log(data)}
           {dataOk && (
             <ModalBox
               isOpen="center"
